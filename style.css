@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.player {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.song-card {
+  margin: 20px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  background: #eee;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.play {
+  background: #2ebf91;
+  color: white;
+}
+
+input[type="range"] {
+  width: 100%;
+}
